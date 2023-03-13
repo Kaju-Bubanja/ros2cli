@@ -118,6 +118,8 @@ def load_parameter_dict(*, node, node_name, parameter_dict):
     response = call_set_parameters(
         node=node, node_name=node_name, parameters=parameters)
 
+    overall_result = True
+
     # output response
     assert len(response.results) == len(parameters)
     for i in range(0, len(response.results)):
@@ -129,10 +131,12 @@ def load_parameter_dict(*, node, node_name, parameter_dict):
                 msg += ': ' + result.reason
             print(msg)
         else:
+            overall_result = False
             msg = 'Set parameter {} failed'.format(param_name)
             if result.reason:
                 msg += ': ' + result.reason
             print(msg, file=sys.stderr)
+    return overall_result
 
 
 def load_parameter_file(*, node, node_name, parameter_file, use_wildcard):
