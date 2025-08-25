@@ -2,6 +2,34 @@
 Changelog for package ros2pkg
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.18.13 (2025-07-16)
+--------------------
+
+0.18.12 (2025-03-25)
+--------------------
+* Update minimum CMake version in CMakeLists.txt.em (backport `#969 <https://github.com/ros2/ros2cli/issues/969>`_) (`#972 <https://github.com/ros2/ros2cli/issues/972>`_)
+* Contributors: mergify[bot]
+
+0.18.11 (2024-07-26)
+--------------------
+
+0.18.10 (2024-05-15)
+--------------------
+
+0.18.9 (2024-02-16)
+-------------------
+
+0.18.8 (2024-01-24)
+-------------------
+
+0.18.7 (2023-07-18)
+-------------------
+* resolve `#790 <https://github.com/ros2/ros2cli/issues/790>`_ (`#801 <https://github.com/ros2/ros2cli/issues/801>`_) (`#832 <https://github.com/ros2/ros2cli/issues/832>`_)
+* Contributors: mergify[bot]
+
+0.18.6 (2023-04-25)
+-------------------
+
 0.18.5 (2023-01-10)
 -------------------
 

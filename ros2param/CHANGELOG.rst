@@ -2,6 +2,37 @@
 Changelog for package ros2param
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.18.13 (2025-07-16)
+--------------------
+* catch ConnectionRefusedError, so that it can fall back to DirectNode. (`#1014 <https://github.com/ros2/ros2cli/issues/1014>`_) (`#1022 <https://github.com/ros2/ros2cli/issues/1022>`_)
+* fails the test properly to avoid TypeError exception. (backport `#1016 <https://github.com/ros2/ros2cli/issues/1016>`_) (`#1019 <https://github.com/ros2/ros2cli/issues/1019>`_)
+* Contributors: mergify[bot]
+
+0.18.12 (2025-03-25)
+--------------------
+* Allow space or empty strings when using ros2 param set. (`#984 <https://github.com/ros2/ros2cli/issues/984>`_)
+* Contributors: Tomoya Fujita
+
+0.18.11 (2024-07-26)
+--------------------
+
+0.18.10 (2024-05-15)
+--------------------
+
+0.18.9 (2024-02-16)
+-------------------
+
+0.18.8 (2024-01-24)
+-------------------
+
+0.18.7 (2023-07-18)
+-------------------
+* Update ros2 param dump dosctring. (`#837 <https://github.com/ros2/ros2cli/issues/837>`_) (`#840 <https://github.com/ros2/ros2cli/issues/840>`_)
+* Contributors: mergify[bot]
+
+0.18.6 (2023-04-25)
+-------------------
+
 0.18.5 (2023-01-10)
 -------------------
 

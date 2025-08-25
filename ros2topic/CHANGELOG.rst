@@ -2,6 +2,36 @@
 Changelog for package ros2topic
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.18.13 (2025-07-16)
+--------------------
+* ros2topic: Documented now and auto keywords (`#1008 <https://github.com/ros2/ros2cli/issues/1008>`_) (`#1010 <https://github.com/ros2/ros2cli/issues/1010>`_)
+* Conditional deserialization of message for `ros2 topic hz` (backport `#1005 <https://github.com/ros2/ros2cli/issues/1005>`_) (`#1007 <https://github.com/ros2/ros2cli/issues/1007>`_)
+* Contributors: mergify[bot]
+
+0.18.12 (2025-03-25)
+--------------------
+* Adjust topic hz and bw command description. (`#987 <https://github.com/ros2/ros2cli/issues/987>`_) (`#989 <https://github.com/ros2/ros2cli/issues/989>`_)
+* start the simulation from 1 second for the test. (`#975 <https://github.com/ros2/ros2cli/issues/975>`_) (`#977 <https://github.com/ros2/ros2cli/issues/977>`_)
+* Contributors: mergify[bot]
+
+0.18.11 (2024-07-26)
+--------------------
+
+0.18.10 (2024-05-15)
+--------------------
+
+0.18.9 (2024-02-16)
+-------------------
+
+0.18.8 (2024-01-24)
+-------------------
+
+0.18.7 (2023-07-18)
+-------------------
+
+0.18.6 (2023-04-25)
+-------------------
+
 0.18.5 (2023-01-10)
 -------------------
 * Extend timeout to shutdown the command line process. (`#783 <https://github.com/ros2/ros2cli/issues/783>`_) (`#784 <https://github.com/ros2/ros2cli/issues/784>`_)

@@ -2,6 +2,37 @@
 Changelog for package ros2action
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.18.13 (2025-07-16)
+--------------------
+* remove unnecessary '/' from ros2 action info. (backport `#1049 <https://github.com/ros2/ros2cli/issues/1049>`_) (`#1052 <https://github.com/ros2/ros2cli/issues/1052>`_)
+* Contributors: mergify[bot]
+
+0.18.12 (2025-03-25)
+--------------------
+* Correct the license content (`#979 <https://github.com/ros2/ros2cli/issues/979>`_) (`#981 <https://github.com/ros2/ros2cli/issues/981>`_)
+* ros2action: add SIGINT handler to manage cancel request. (`#956 <https://github.com/ros2/ros2cli/issues/956>`_) (`#963 <https://github.com/ros2/ros2cli/issues/963>`_)
+* Contributors: mergify[bot]
+
+0.18.11 (2024-07-26)
+--------------------
+
+0.18.10 (2024-05-15)
+--------------------
+* call get_action_interfaces() properly. (`#898 <https://github.com/ros2/ros2cli/issues/898>`_) (`#902 <https://github.com/ros2/ros2cli/issues/902>`_)
+* Contributors: mergify[bot]
+
+0.18.9 (2024-02-16)
+-------------------
+
+0.18.8 (2024-01-24)
+-------------------
+
+0.18.7 (2023-07-18)
+-------------------
+
+0.18.6 (2023-04-25)
+-------------------
+
 0.18.5 (2023-01-10)
 -------------------
 
